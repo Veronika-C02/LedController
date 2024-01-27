@@ -13,7 +13,8 @@ Sprint          Epic           Story        Task        Story Points        Assi
         Daily 2
         ----------------
         - Team 1:
-            - llorem ipsum
+            - Epic 1, Story 1, Issue 1 done - Commit kann durchgeführt werden
+            - up next: Epic 1, Story 1, Issue 2
 
 
         Retro Sprint 1
