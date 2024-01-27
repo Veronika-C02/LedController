@@ -73,7 +73,7 @@ Sprint          Epic           Story        Task        Story Points        Assi
 
         Sprint Planning:
         ----------------
-        - auf Wunsch des Teams wird nur Task 1 der Story 2 in den Sprint aufgenommen
+        - auf Wunsch des Teams wird nur Task 1 der Story 2 (1.2.1) in den Sprint aufgenommen
         - wie in der Retro zu Sprint 2 erwähnt, soll dies den Druck im jungen Team senken
         - wird der Task vorzeitig beendet, dann wird der Task 2 (Story 2) nachgezogen
 
@@ -81,20 +81,20 @@ Sprint          Epic           Story        Task        Story Points        Assi
         Daily 1
         ----------------
         - Team 1:
-            - Probleme bei Implementation von Task 1 zur Story 2
+            - Probleme bei Implementation von Task 1 zur Story 2 (1.2.1)
             - Neuer Entwickler braucht mehr Zeit zum Einlesen in den Code als gedacht
 
         Daily 2
         ----------------
         - Team 1:
-            - Task 1 Story 2 fertig gestellt
-            - Task 2 Story 2 in den Sprint nachgezogen
+            - Task 1 Story 2 fertig gestellt (1.2.1)
+            - Task 2 Story 2 in den Sprint nachgezogen (1.2.2)
 
 
         Retro Sprint 3
         ----------------
-        - Geplant war Task 1 Story 2
-        - vorgezogen von Task 2 Story 2
+        - Geplant war Task 1 Story 2 (1.2.1)
+        - vorgezogen von Task 2 Story 2 (1.2.2)
 
 -----------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------
@@ -107,24 +107,26 @@ Sprint          Epic           Story        Task        Story Points        Assi
 
         Sprint Planning:
         ----------------
-        - Relativ komplexer Task von Test zu Story 2 in den Sprint aufgenommen
-        - wird der Task vorzeitig beendet, dann wird der Task 1 (Story 3) nachgezogen
+        - Relativ komplexer Task von Test zu Story 2 in den Sprint aufgenommen (1.2.2)
+        - wird der Task vorzeitig beendet, dann wird der Task 1 (Story 3) nachgezogen (1.3.1)
 
 
         Daily 1
         ----------------
-        - Team 1:
-            -
+        - Team 2: Task 2 Story 2 fertig (1.2.2)
+        - Team 2: Vorziehen von Task 1 Story 3 aus dem Backlog (1.3.1)
 
         Daily 2
         ----------------
-        - Team 1:
-            -
+        - Team 1: Task 1 Story 3 (1.3.1) fertig gestellt
+        - Team 1: Epic 2 Task 1 Story 1 (2.1.1) in den Sprint aufgenommen
 
 
         Retro Sprint 4
         ----------------
-        -
+        - 1.2.2 und 1.3.1 fertig gestellt
+        - Ob du wirklich richtig stehst, siehst du wenn das Licht angeht: 2.1.1 fertig gestellt
+        - Velocity hat zum Ende hin zugenommen
 
 -----------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------
