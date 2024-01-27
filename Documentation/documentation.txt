@@ -34,6 +34,7 @@ Sprint          Epic           Story        Task        Story Points        Assi
 Sprint          Epic           Story        Task        Story Points        Assignee
 -----------------------------------------------------------------------------------------------
 2              1                3           2 (#5)           8              Team 1
+2              1                2           1 (#6)           5              Team 1
 
 
         Sprint Planning:
