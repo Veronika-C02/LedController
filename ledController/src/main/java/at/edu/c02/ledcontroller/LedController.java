@@ -10,6 +10,7 @@ import java.util.List;
 public interface LedController {
     void demo() throws IOException;
     void status() throws IOException;
+    void groupstatus() throws IOException;
 
 
 }

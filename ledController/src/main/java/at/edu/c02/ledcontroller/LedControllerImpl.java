@@ -74,5 +74,22 @@ public class LedControllerImpl implements LedController {
         return array;
     }
 
+    public void groupstatus() throws IOException{
+
+        JSONArray array = getGroupLeds();
+        int index = 0;
+        for (Object o : array) {
+            JSONObject current = array.getJSONObject(index);
+            String onOffButton;
+            if (current.getBoolean("on") == true){
+                onOffButton = "on";
+            }else onOffButton = "off";
+
+            System.out.println("LED: "+ current.getInt("id") + " is currently " + onOffButton + ". Color: " + current.getString("color"));
+
+            index++;
+        }
+
+    }
 
 }
