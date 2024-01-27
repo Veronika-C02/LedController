@@ -82,19 +82,49 @@ Sprint          Epic           Story        Task        Story Points        Assi
         ----------------
         - Team 1:
             - Probleme bei Implementation von Task 1 zur Story 2
-            - Neuer Entwickler braucht mehr Zeit zum Einlesen in den Code
+            - Neuer Entwickler braucht mehr Zeit zum Einlesen in den Code als gedacht
 
         Daily 2
         ----------------
         - Team 1:
-            - llorem ipsum
-            - llorem ipsum
+            - Task 1 Story 2 fertig gestellt
+            - Task 2 Story 2 in den Sprint nachgezogen
 
 
-        Retro Sprint 1
+        Retro Sprint 3
         ----------------
-        - llorem ipsum
-        - llorem ipsum
+        - Geplant war Task 1 Story 2
+        - vorgezogen von Task 2 Story 2
+
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+
+
+Sprint          Epic           Story        Task        Story Points        Assignee
+-----------------------------------------------------------------------------------------------
+4              1                2           2 (#7)           8              Team 2
+
+
+        Sprint Planning:
+        ----------------
+        - Relativ komplexer Task von Test zu Story 2 in den Sprint aufgenommen
+        - wird der Task vorzeitig beendet, dann wird der Task 1 (Story 3) nachgezogen
+
+
+        Daily 1
+        ----------------
+        - Team 1:
+            -
+
+        Daily 2
+        ----------------
+        - Team 1:
+            -
+
+
+        Retro Sprint 4
+        ----------------
+        -
 
 -----------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------
