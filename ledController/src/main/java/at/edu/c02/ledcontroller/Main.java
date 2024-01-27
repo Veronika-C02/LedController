@@ -20,6 +20,7 @@ public class Main {
             System.out.println("Enter 'demo' to send a demo request");
             System.out.println("Enter 'exit' to exit the program");
             System.out.println("Enter 'status' to get a status of one LED");
+            System.out.println("Enter 'groupstatus' to get a status of one LED");
             input = reader.readLine();
             if(input.equalsIgnoreCase("demo"))
             {
@@ -28,6 +29,11 @@ public class Main {
             if(input.equalsIgnoreCase("status"))
             {
                 ledController.status();
+            }
+
+            if(input.equalsIgnoreCase("groupstatus"))
+            {
+                ledController.groupstatus();
             }
 
         }
