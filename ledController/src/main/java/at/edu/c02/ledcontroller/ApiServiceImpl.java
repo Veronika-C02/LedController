@@ -53,4 +53,40 @@ public class ApiServiceImpl implements ApiService {
         // Convert response into a json object
         return new JSONObject(jsonText);
     }
+
+    @Override
+    public JSONObject getLight(int id) throws IOException {
+
+        String urlOfLight = "https://balanced-civet-91.hasura.app/api/rest/lights/"+id;
+
+        // Connect to the server
+        URL url = new URL(urlOfLight);
+        HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+        // and send a GET request
+        connection.setRequestMethod("GET");
+        connection.setRequestProperty("X-Hasura-Group-ID", "Todo");
+        // Read the response code
+        int responseCode = connection.getResponseCode();
+        if(responseCode != HttpURLConnection.HTTP_OK) {
+            // Something went wrong with the request
+            throw new IOException("Error: getLights request failed with response code " + responseCode);
+        }
+
+        // The request was successful, read the response
+        BufferedReader reader = new BufferedReader(new InputStreamReader(connection.getInputStream()));
+        // Save the response in this StringBuilder
+        StringBuilder sb = new StringBuilder();
+
+        int character;
+        // Read the response, character by character. The response ends when we read -1.
+        while((character = reader.read()) != -1) {
+            sb.append((char) character);
+        }
+
+        String jsonText = sb.toString();
+        // Convert response into a json object
+        return new JSONObject(jsonText);
+
+    }
+
 }

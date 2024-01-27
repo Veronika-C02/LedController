@@ -11,6 +11,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
         LedController ledController = new LedControllerImpl(new ApiServiceImpl());
 
+
         String input = "";
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         while(!input.equalsIgnoreCase("exit"))
@@ -24,5 +25,6 @@ public class Main {
                 ledController.demo();
             }
         }
+
     }
 }
