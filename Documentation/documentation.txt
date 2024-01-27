@@ -3,6 +3,45 @@ Sprint          Epic           Story        Task        Story Points        Assi
 1               1               1           1 (#1)      5                   Team 1
 1               1               1           2 (#2)      3                   Team 1
 
+        Sprint Planning:
+        ----------------
+        - Epic 1, Story 1 wird mit Tasks 1 und 2 in den sprint genommen
+        - das DEV Team ist jung und unerfahren, deshalb gehen wir davon aus, dass die Umsetzung der Tasks länger dauern wird
+        - sollte das Team schneller sein, ziehen wir die nächst-priorisierten Stories aus dem Backlog nach
+
+        Daily 1
+        ----------------
+        - Team 1:
+            - Branch erstellt
+            - API Service get Light Methode begonnen
+            - Probleme den Zusammenhang des Projektes zur verstehen
+
+        Daily 2
+        ----------------
+        - Team 1:
+            - Epic 1, Story 1, Issue 1 done - Commit kann durchgeführt werden
+            - up next: Epic 1, Story 1, Issue 2
+
+
+        Retro Sprint 1
+        ----------------
+        - Probleme bei externem Supplier, daher Probleme bei Task 2, Supplier konnte das Problem beheben
+        - alle Tasks konnten abgeschlossen werden - hooray!
+
+-----------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+
+Sprint          Epic           Story        Task        Story Points        Assignee
+-----------------------------------------------------------------------------------------------
+2              1                2
+
+
+        Sprint Planning:
+        ----------------
+        - llorem ipsum
+        - llorem ipsum
+
+
         Daily 1
         ----------------
         - Team 1:
@@ -22,9 +61,5 @@ Sprint          Epic           Story        Task        Story Points        Assi
         - llorem ipsum
         - llorem ipsum
 
------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------
-
-Sprint          Epic           Story        Task        Story Points        Assignee
------------------------------------------------------------------------------------------------
-2              1                2
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
