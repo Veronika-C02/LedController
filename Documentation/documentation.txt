@@ -57,10 +57,10 @@ Sprint          Epic           Story        Task        Story Points        Assi
             - nächste Story 1.2.1 aus dem Backlog in den Sprint gezogen
 
 
-        Retro Sprint 1
+        Retro Sprint 2
         ----------------
-        - llorem ipsum
-        - llorem ipsum
+        - Herangehensweise mit weniger Stories in den Sprint ziehen und bei Erfolg nachziehen hat sich bewährt
+        - psychologischer Druck für Team kleiner
 
 -----------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------
