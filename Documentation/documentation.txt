@@ -1,0 +1,29 @@
+Sprint          Epic           Story        Task        Story Points        Assignee
+------------------------------------------------------------------------------------------------
+1               1               1           1 (#1)      5                   Team 1
+1               1               1           2 (#2)      3                   Team 1
+
+        Daily 1
+        ----------------
+        - Team 1:
+            - Branch erstellt
+            - API Service get Light Methode begonnen
+            - Probleme den Zusammenhang des Projektes zur verstehen
+
+        Daily 2
+        ----------------
+        - Team 1:
+            - llorem ipsum
+
+
+        Retro Sprint 1
+        ----------------
+        - llorem ipsum
+        - llorem ipsum
+
+-----------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+
+Sprint          Epic           Story        Task        Story Points        Assignee
+-----------------------------------------------------------------------------------------------
+2              1                2
