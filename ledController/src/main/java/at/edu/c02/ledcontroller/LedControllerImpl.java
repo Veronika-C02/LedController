@@ -58,5 +58,21 @@ public class LedControllerImpl implements LedController {
 
     }
 
+    public JSONArray getGroupLeds() throws IOException {
+        JSONArray array = new JSONArray();
+        JSONObject response = apiService.getLights();
+        JSONArray lights = response.getJSONArray("lights");
+        int index = 0;
+        for (Object light : lights) {
+            JSONObject specifiedLed = lights.getJSONObject(index);
+            String group = specifiedLed.getJSONObject("groupByGroup").getString("name");
+            if (group.equals("D")){
+                array.put(specifiedLed);
+            }
+            index++;
+        }
+        return array;
+    }
+
 
 }
