@@ -9,7 +9,9 @@ public class Main {
      * This is the main program entry point. TODO: add new commands when implementing additional features.
      */
     public static void main(String[] args) throws IOException {
-        LedController ledController = new LedControllerImpl(new ApiServiceImpl());
+        ApiServiceImpl apiService = new ApiServiceImpl();
+        LedController ledController = new LedControllerImpl(apiService);
+
 
 
         String input = "";
@@ -35,6 +37,11 @@ public class Main {
             {
                 ledController.groupstatus();
             }
+            if(input.equalsIgnoreCase("setLight"))
+            {
+                apiService.setLights();
+            }
+
 
         }
 

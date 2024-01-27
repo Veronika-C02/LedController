@@ -5,6 +5,7 @@ import org.json.JSONObject;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
@@ -42,6 +43,52 @@ public class ApiServiceImpl implements ApiService {
         return createConnection(url);
     }
 
+    @Override
+    public JSONObject setLights() throws IOException {
+
+        URL url = new URL("https://balanced-civet-91.hasura.app/api/rest/setLight");
+        HttpURLConnection con = (HttpURLConnection)url.openConnection();
+
+        con.setRequestMethod("PUT");
+        con.setRequestProperty("X-Hasura-Group-ID", "98fc1c149afbf4c899");
+        con.setRequestProperty("Content-Type", "application/json");
+        con.setRequestProperty("Accept", "application/json");
+        con.setDoOutput(true);
+
+        // JSON von Lights anpassen --> Color ändern, einschalten
+
+        String jsonInputString = "{\"id\":28,\"color\":\"#f00\",\"state\":true}";
+
+        try(OutputStream os = con.getOutputStream()) {
+            byte[] input = jsonInputString.getBytes("utf-8");
+            os.write(input, 0, input.length);
+        }
+
+
+        // Read the response code
+        int responseCode = con.getResponseCode();
+        if(responseCode != HttpURLConnection.HTTP_OK) {
+            // Something went wrong with the request
+            throw new IOException("Error: setLights request failed with response code " + responseCode);
+        }
+
+        // The request was successful, read the response
+        BufferedReader reader = new BufferedReader(new InputStreamReader(con.getInputStream()));
+        // Save the response in this StringBuilder
+        StringBuilder sb = new StringBuilder();
+
+        int character;
+        // Read the response, character by character. The response ends when we read -1.
+        while((character = reader.read()) != -1) {
+            sb.append((char) character);
+        }
+
+        String jsonText = sb.toString();
+        // Convert response into a json object
+        return new JSONObject(jsonText);
+
+    }
+
     private JSONObject createConnection(URL url) throws IOException {
 
         HttpURLConnection connection = (HttpURLConnection) url.openConnection();
@@ -69,6 +116,7 @@ public class ApiServiceImpl implements ApiService {
         String jsonText = sb.toString();
         // Convert response into a json object
         return new JSONObject(jsonText);
+
     }
 
 }
