@@ -29,4 +29,6 @@ public class LedControllerImpl implements LedController {
         System.out.println("First light id is: " + firstLight.getInt("id"));
         System.out.println("First light color is: " + firstLight.getString("color"));
     }
+
+
 }
