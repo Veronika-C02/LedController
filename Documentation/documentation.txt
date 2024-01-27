@@ -57,10 +57,10 @@ Sprint          Epic           Story        Task        Story Points        Assi
             - nächste Story 1.2.1 aus dem Backlog in den Sprint gezogen
 
 
-        Retro Sprint 1
+        Retro Sprint 2
         ----------------
-        - llorem ipsum
-        - llorem ipsum
+        - Herangehensweise mit weniger Stories in den Sprint ziehen und bei Erfolg nachziehen hat sich bewährt
+        - psychologischer Druck für Team kleiner
 
 -----------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------
@@ -68,18 +68,21 @@ Sprint          Epic           Story        Task        Story Points        Assi
 
 Sprint          Epic           Story        Task        Story Points        Assignee
 -----------------------------------------------------------------------------------------------
-2              1                3           2 (#5)           8              Team 1
+3              1                2           1 (#6)           5              Team 2
 
 
         Sprint Planning:
         ----------------
-        - llorem ipsum
+        - auf Wunsch des Teams wird nur Task 1 der Story 2 in den Sprint aufgenommen
+        - wie in der Retro zu Sprint 2 erwähnt, soll dies den Druck im jungen Team senken
+        - wird der Task vorzeitig beendet, dann wird der Task 2 (Story 2) nachgezogen
 
 
         Daily 1
         ----------------
         - Team 1:
-            - llorem ipsum
+            - Probleme bei Implementation von Task 1 zur Story 2
+            - Neuer Entwickler braucht mehr Zeit zum Einlesen in den Code
 
         Daily 2
         ----------------
