@@ -53,6 +53,37 @@ Sprint          Epic           Story        Task        Story Points        Assi
         Daily 2
         ----------------
         - Team 1:
+            - Story 1.3.2 done, erwartete Nacharbeiten waren nicht notwendig
+            - nächste Story 1.2.1 aus dem Backlog in den Sprint gezogen
+
+
+        Retro Sprint 1
+        ----------------
+        - llorem ipsum
+        - llorem ipsum
+
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+
+
+Sprint          Epic           Story        Task        Story Points        Assignee
+-----------------------------------------------------------------------------------------------
+2              1                3           2 (#5)           8              Team 1
+
+
+        Sprint Planning:
+        ----------------
+        - llorem ipsum
+
+
+        Daily 1
+        ----------------
+        - Team 1:
+            - llorem ipsum
+
+        Daily 2
+        ----------------
+        - Team 1:
             - llorem ipsum
             - llorem ipsum
 
