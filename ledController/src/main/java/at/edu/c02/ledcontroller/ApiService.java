@@ -8,5 +8,7 @@ public interface ApiService {
     JSONObject getLights() throws IOException;
     JSONObject getLights(int id) throws IOException;
 
+    JSONObject setLights() throws  IOException;
+
 
 }
