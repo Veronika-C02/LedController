@@ -33,27 +33,28 @@ Sprint          Epic           Story        Task        Story Points        Assi
 
 Sprint          Epic           Story        Task        Story Points        Assignee
 -----------------------------------------------------------------------------------------------
-2              1                2
+2              1                3           2 (#5)           8              Team 1
 
 
         Sprint Planning:
         ----------------
-        - llorem ipsum
-        - llorem ipsum
+        - auf Wunsch des Teams wird der Task 1.3.2 im Backlog vorgezogen
+        - das juniorige Team nimmt nur diesen Task in den Sprint, weil das Vertrauen in die Code Teile, auf die dieser Task aufsetzt, nicht sehr hoch ist. Potentielle NAcharbeiten erwartet
+        - bei schnellerem Vorankommen, wird die nächste Story aus dem Backlog vorgezogen
+        - Backlog ist priorisiert und 2 Sprints im Voraus geschätzt
 
 
         Daily 1
         ----------------
         - Team 1:
-            - Branch erstellt
-            - API Service get Light Methode begonnen
-            - Probleme den Zusammenhang des Projektes zur verstehen
+            - Schwierigkeiten der Junior Entwickler mit den Arbeitsmethoden, daher Zeitverzug
+            - nun aber on track
 
         Daily 2
         ----------------
         - Team 1:
-            - Epic 1, Story 1, Issue 1 done - Commit kann durchgeführt werden
-            - up next: Epic 1, Story 1, Issue 2
+            - llorem ipsum
+            - llorem ipsum
 
 
         Retro Sprint 1
